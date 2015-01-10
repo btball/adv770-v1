@@ -1,0 +1,484 @@
+# Copyleft Mike Arnautov 1984-2014.
+#
+# Words to be ignored
+#
+noise and, then, the, a, an, that, this, to, at, with, !awhile, about, from
+#
+# Time we defined some verbs. 
+#
+# N.B. - the following magic words (ZORTON through BASINGSTOKE) #must#
+# be defined in reverse alphabetical order!  If new magic words
+# are added, place them in the proper sequence and modify the
+# code in the "AT NOWHERE" area!  If you don't do this right, 
+# people are going to have a hell of a time getting out of Nowhere
+# during cave-closure. One extra complication... adding magic words
+# can make the safe unresponsive to any of the 4 keys in saved
+# games, in which the sceptre had been obtained by the player;
+# alternatively, if the compatibility kludge in the RESTORE code
+# is preserved, it may change the key to BASINGSTOKE (better than nothing, 
+# anyway). Only magic words alphabetically lower than BASINGSTOKE are safe.
+# Finally, note that the '!' prefixing magic words makes them
+# non-abbreviable - the same would work for any other dictionary 
+# word too.
+#
+verb -first.magic
+verb !zorton
+verb !xyzzy
+verb !thurb
+verb !snoeze
+verb !samoht
+verb !plugh
+verb !phuggg
+verb !noside
+verb !melenkurion
+verb !knerl
+verb !klaetu
+verb !foo
+verb !foe
+verb !fie
+verb !fee
+verb !blerbi
+verb !basingstoke
+verb -last.magic
+#
+# The next block are specials, not requiring validation of ARG2.
+#
+verb -first.special        # Mark the first one
+verb again, repeat, =r
+verb save, suspend, pause
+verb restore, load
+verb rest, wait                  # In case players type REST MYGAME
+verb contemplate, meditate
+verb sorry, thanks
+verb say, =talk, chant, sing, utter, mumble, shout, speak, yell
+verb laugh, =!lol, =!rotfl, =!rofl, =hehehehehe, =hahahahaha, =hohohohoho, =heeheeheeheehee, smirk, grin, smile
+verb !length, =!line, =!width
+verb !scroll, =!screen, =!depth
+verb !margin, =!offset
+verb restart, initialise
+verb why
+verb !fuck, !piss, !pee, !screw, !shit, urinate, !wank, !bugger, !fart, !crap, defecate, !rape, !anus, !anal
+verb !undo
+verb !redo
+verb cry
+verb please
+verb -last.special         # Mark end of special verbs
+#
+# End of verbs not requiring validation of ARG2.
+#
+# Now define directions.
+#
+verb -first.direction
+verb north, =n
+verb northeast, =ne
+verb east, =e
+verb southeast, =se
+verb south, =s
+verb southwest, =sw
+verb west, =w
+verb northwest, =nw
+verb -last.compass.point
+verb up, =u, upward, above, ascend
+verb down, =d, downwards, descend
+verb -last.direction
+#
+# Other movement verbs.
+#
+verb in, inward, inside, enter
+verb out, outside, outdoors, exit, leave
+verb go, walk, run, travel, proceed, explore, follow, scramble, detour
+verb forward, continue, onward
+verb back, =b, return, retreat
+verb jump, leap
+verb cross, across, over
+#
+# Now for general verbs which may require clarification
+#
+verb -first.clarify
+verb get, =g, =reach, carry, take, =t, pickup, keep, hold, catch, grab, =grip, clutch, steal, capture, tote, scoop
+verb drop, =dr, =discard, =fall, =abandon, free, =release, =let
+verb dump
+verb open, force
+verb unlock                 # Mostly, but not always, same as 'open'
+verb close, lock
+verb shut                   # Allow for "shut up"
+verb wear, don
+verb remove, doff
+verb listen, hear
+verb translate, interpret, decode
+verb wake, prod, disturb, stir
+verb cut, chop
+verb on
+verb off
+verb light, lights
+verb extinguish
+verb wave, =waves, shake, swing, rollers
+verb placate, calm, tame
+verb kill, =k, attack, fight, slay
+verb hit, strike, beat, bang
+verb kick
+verb blow, play
+verb pour
+verb eat, devour
+verb chew, bite
+verb drink, imbibe
+verb sip, taste, nibble
+verb rub, polish
+verb throw, =th, toss, hurl
+verb find, discover, locate    # Wizards can find remote things
+verb feed
+verb fill
+verb lift                   # Mostly, but not always, same as 'get'
+verb read, peruse, scan
+verb replace, change, exchange, swap
+verb break, shatter, smash, disable, jam, ram
+verb ride, mount, board, boards  # For 'l boards' by dinghy
+verb fix, repair
+verb scatter, sow
+verb empty
+verb give, offer, show
+verb fly, teleport        # Wizards can fly to some locations
+verb pull
+verb push, move, shift, turn, press
+verb obtain, procure, fetch
+verb dip
+verb evict, banish
+verb where
+verb tear
+verb spill
+verb clean
+verb value
+verb burn, ignite
+verb flip, toggle
+verb melt
+verb -last.clarify        # Last clarifiable 'verb'
+#
+# Next lot does not require clarifications
+#
+verb introduction, instructions
+verb examine, =look, =l, =x, =ex, describe, description, consider, inspect
+verb quit, =q, =end, =stop, =finish, =bye, =logout, =cancel, =abort
+verb terse, fast
+verb normal, brief, default
+verb verbose, full
+verb history
+verb hours
+verb memorize, =remember, =memorise
+verb recall
+verb !sesame, !opensesame, !abra, !abracadabra, !shazam, !hocus, !pocus, !cadabra
+verb help, =?, hint
+verb !fum
+verb dig, excavate
+verb lost, confused
+verb info, information
+verb swim
+verb wizard
+verb sleep, doze, snooze, =nap
+verb scream
+verb swear
+verb hoot
+verb search
+verb inventory, =i, itinerary, itinery
+verb score, =sc
+verb epns
+verb blast, explode, detonate
+verb climb
+verb upstream
+verb downstream
+verb left, right
+verb use
+verb reflect
+verb scry, gaze
+verb vocabulary, =commands, dictionary
+verb yes, =y, =yup, ok, good
+verb no, =nope
+verb maybe, perhaps, possibly
+verb tanstaafl
+verb !frobozz       # Not a magic word!
+verb wash
+verb die, suicide
+verb roll, rollup
+verb unroll, spread
+verb cheat
+verb dwarvish
+verb english
+verb put, insert
+verb attach
+verb justify
+verb think
+verb point
+verb pqfo                   # "Open" in dwarvish
+verb knock
+verb count
+verb !omar, !rubayat, !rubaiyat, !khayyam, !khayam, !corelli, mandolin
+verb mutter
+verb bknrd, nodm, rgts, m, mn, fn, hm, mv, nts, h, hmudmsnqx # Some Humanish
+verb credits, acknowledgements
+verb test
+verb exits
+verb .spare.verb                  # Was 'next' -- can't just remove it!!
+verb diagnose, health
+verb tie, untie
+verb explain
+#
+# Now the potential travel options.
+#
+verb -first.travel
+verb crack, cracks
+verb cave
+verb dome
+verb view, terraine
+verb surface
+verb hole, holes
+verb forest, woods
+verb entrance
+verb secret
+verb passage, passages
+verb tunnel, tunnels
+verb stream, flow, =flows, =rivers, torrent, rapids
+verb crawl
+verb hall
+verb opening, openings
+verb -last.travel
+#
+# Next come pseudo-verbs.
+#
+verb -first.pseudo
+verb catacombs
+verb cloak
+verb hat
+verb caviar
+verb goodies, sandwiches
+verb barrel
+verb fountain, basin, fountains
+verb tombs, vaults
+verb shelf, shelves, rack, racks
+verb couch
+verb ash, ashes, fire
+verb heelprint, =print, indentation
+verb well
+verb spring
+verb bed, streambed, stream-bed, riverbed, river-bed
+verb window, windows
+verb cliff, cliffs
+verb vegetation, =greenery, =tangle, =mass, =growth, =barrier, foliage, =leaves, =canopy, =leaf
+verb berry, berries
+verb eyes, eye                             # Intercept eyeglass!
+verb monocle, =eye-glass, =eyeglass
+verb lid
+verb gully
+verb something, =thing, =red, =shiny       # Red for fire alarm, shiny for seal
+verb drawing, =drawings, fish, =fishy
+verb verbs
+verb nouns, objects
+verb crevice
+verb o'ryan, =oryan, patrick
+verb swamp, =bog, =marsh
+verb ivy
+verb wall, =walls
+verb mist, fog, wisps
+verb switch, hemisphere
+verb thumbs
+verb ramp
+verb droppings
+verb boxes
+verb monkey, ape
+verb guybrush, threepwood
+verb jerry, cornelius
+verb elric, melnibone
+verb plug
+verb plughole
+verb tooth
+verb sea, ocean
+verb tower
+verb slits
+verb mug, =pewter, mugs, dish, dishes, jug, =earthenware, jugs
+verb sand, grit
+verb stool
+verb sewage
+verb carcass, body
+verb mountain, mountains, =range, =peaks
+verb rattle
+verb columns, =column, pillars, =pillar
+verb horses, shape, shapes, ironwork
+verb pool, whirlpool
+verb pergola
+verb bench
+verb cupid
+verb doorway, portal
+verb corner
+verb around, area
+verb ceiling, vault
+verb bricks, brickwork, =brick-work
+verb maple, =maples, oak, =oaks
+verb birch, =birches
+verb bushes, bush, shrubs, gorse, undergrowth, elder, blackthorn, scrub, rosebushes, spruce
+verb fir, =firs, conifer, =conifers
+noun grass, soil, patch
+noun weeds
+noun sun
+verb stars, star
+verb moon, moons
+verb bottom
+verb shaft
+verb supports
+verb surround
+verb chalk
+verb thicket
+verb haze
+verb concrete
+verb dirt
+verb brambles
+verb nettles
+verb ferns
+verb dust
+verb planks, wood
+verb bank, banks
+verb phalanx
+verb flowers
+verb coral
+verb horizon
+verb slope, slopes, shoulder
+verb shore, shores, coast
+verb outcrop, outcrops
+verb stem
+verb structure
+verb me, self, myself
+verb you, yourself
+verb sygil
+verb crabs, =crab
+verb edge, edges
+verb marble
+verb periphery
+verb trail
+verb shade
+verb fold, folds
+verb torch, torches
+verb bend
+verb words
+verb cairn
+verb spiral
+verb rib, ribs
+verb lava, basalt
+verb minerals
+verb formations
+verb remnants
+verb blockage, cavein, cave-in, rockfall, rock-fall
+verb swag, loot
+verb label
+verb aurora
+verb clouds
+verb reflections
+verb alabaster
+verb geyser, steam
+verb shadows, apparitions
+verb runes, scripts
+verb counterweights, mechanism
+verb crag, crags
+verb seam, seams
+verb heap, heaps, pile, piles
+verb feet, foot
+verb dais
+verb granite
+verb blood
+verb onyx, bloodstone
+verb stanchions
+verb balustrade
+verb gravel
+verb thorns
+verb snow
+verb meadows
+verb space
+verb daylight
+verb carving
+verb arch, archway
+verb timber, props
+verb crystals
+verb rust
+verb marks
+verb mould
+verb fracture
+verb pipe, pipes
+verb liquid
+verb membrane
+verb foam, flecks
+verb void
+verb table-cloth, =tablecloth, cloth
+verb foot-holds, =footholds, hand-holds, =handholds
+verb insects
+verb bat, bats
+verb hollows
+verb top
+verb dune, dunes, desert
+verb vista, landscape, scene
+verb spray
+verb overhang
+verb map
+verb room, chamber
+verb rose
+verb roses
+verb sign
+verb butterflies, butterfly
+verb iron
+verb gold
+verb silver
+verb quartz
+verb bronze
+verb iridium
+verb platinum
+verb turquoise
+verb mithril
+verb jade
+verb ivory
+verb amethyst
+verb metal
+verb paper
+verb brass
+verb thataway
+verb threads
+verb hoofs
+verb mane
+verb handle, pommel
+verb strips
+verb tray
+verb slot
+verb recess
+verb -first.sculpture.fake
+verb !pig
+verb !eel
+verb !emu 
+verb !elf 
+verb squirrel 
+verb vulture 
+verb rabbit 
+verb elephant
+verb snail
+verb condor
+verb lizard
+verb ibex 
+verb frog 
+verb tiger 
+verb mule 
+verb moose 
+verb !dog
+verb phoenix
+verb nymph
+verb -last.sculpture.fake
+#
+verb -first.general
+verb imperfections
+verb rock, =rocks, chunk, chunks, fragments
+verb stone, =stones
+verb boulder, =boulders
+verb block
+verb bundle, !rods
+verb !plurals, !oysters, !birds, !lamps, !cages, !pillows, !bottles, !snakes, !plants, !beanstalks, !nursery, !row
+verb sky
+verb floor, ground
+verb -last.pseudo
+#
+# Except/but is in a category of its own!
+#
+verb except, but
+#
+#=====================================================================

@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D30BDCB31A571B9300639145 /* actions.acd in Resources */ = {isa = PBXBuildFile; fileRef = D30BDCA61A571B9300639145 /* actions.acd */; };
+		D30BDCB41A571B9400639145 /* adv770.acd in Resources */ = {isa = PBXBuildFile; fileRef = D30BDCA71A571B9300639145 /* adv770.acd */; };
+		D30BDCB51A571B9400639145 /* at.acd in Resources */ = {isa = PBXBuildFile; fileRef = D30BDCA81A571B9300639145 /* at.acd */; };
+		D30BDCB61A571B9400639145 /* defs.acd in Resources */ = {isa = PBXBuildFile; fileRef = D30BDCA91A571B9300639145 /* defs.acd */; };
+		D30BDCB71A571B9400639145 /* init.acd in Resources */ = {isa = PBXBuildFile; fileRef = D30BDCAA1A571B9300639145 /* init.acd */; };
+		D30BDCB81A571B9400639145 /* moretext.acd in Resources */ = {isa = PBXBuildFile; fileRef = D30BDCAB1A571B9300639145 /* moretext.acd */; };
+		D30BDCB91A571B9400639145 /* objects.acd in Resources */ = {isa = PBXBuildFile; fileRef = D30BDCAC1A571B9300639145 /* objects.acd */; };
+		D30BDCBA1A571B9400639145 /* places.acd in Resources */ = {isa = PBXBuildFile; fileRef = D30BDCAD1A571B9300639145 /* places.acd */; };
+		D30BDCBB1A571B9400639145 /* procs.acd in Resources */ = {isa = PBXBuildFile; fileRef = D30BDCAE1A571B9300639145 /* procs.acd */; };
+		D30BDCBC1A571B9400639145 /* repeat.acd in Resources */ = {isa = PBXBuildFile; fileRef = D30BDCAF1A571B9300639145 /* repeat.acd */; };
+		D30BDCBD1A571B9400639145 /* text.acd in Resources */ = {isa = PBXBuildFile; fileRef = D30BDCB01A571B9300639145 /* text.acd */; };
+		D30BDCBE1A571B9400639145 /* vars.acd in Resources */ = {isa = PBXBuildFile; fileRef = D30BDCB11A571B9300639145 /* vars.acd */; };
+		D30BDCBF1A571B9400639145 /* words.acd in Resources */ = {isa = PBXBuildFile; fileRef = D30BDCB21A571B9300639145 /* words.acd */; };
 		D388D28A1A51DE7E0086975F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D388D2891A51DE7E0086975F /* main.m */; };
 		D388D28D1A51DE7F0086975F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D388D28C1A51DE7F0086975F /* AppDelegate.m */; };
 		D388D2951A51DE7F0086975F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D388D2941A51DE7F0086975F /* Images.xcassets */; };
@@ -46,6 +59,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D30BDCA61A571B9300639145 /* actions.acd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = actions.acd; path = acode/adv770/asrc/actions.acd; sourceTree = SOURCE_ROOT; };
+		D30BDCA71A571B9300639145 /* adv770.acd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = adv770.acd; path = acode/adv770/asrc/adv770.acd; sourceTree = SOURCE_ROOT; };
+		D30BDCA81A571B9300639145 /* at.acd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = at.acd; path = acode/adv770/asrc/at.acd; sourceTree = SOURCE_ROOT; };
+		D30BDCA91A571B9300639145 /* defs.acd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = defs.acd; path = acode/adv770/asrc/defs.acd; sourceTree = SOURCE_ROOT; };
+		D30BDCAA1A571B9300639145 /* init.acd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = init.acd; path = acode/adv770/asrc/init.acd; sourceTree = SOURCE_ROOT; };
+		D30BDCAB1A571B9300639145 /* moretext.acd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = moretext.acd; path = acode/adv770/asrc/moretext.acd; sourceTree = SOURCE_ROOT; };
+		D30BDCAC1A571B9300639145 /* objects.acd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = objects.acd; path = acode/adv770/asrc/objects.acd; sourceTree = SOURCE_ROOT; };
+		D30BDCAD1A571B9300639145 /* places.acd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = places.acd; path = acode/adv770/asrc/places.acd; sourceTree = SOURCE_ROOT; };
+		D30BDCAE1A571B9300639145 /* procs.acd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = procs.acd; path = acode/adv770/asrc/procs.acd; sourceTree = SOURCE_ROOT; };
+		D30BDCAF1A571B9300639145 /* repeat.acd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = repeat.acd; path = acode/adv770/asrc/repeat.acd; sourceTree = SOURCE_ROOT; };
+		D30BDCB01A571B9300639145 /* text.acd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = text.acd; path = acode/adv770/asrc/text.acd; sourceTree = SOURCE_ROOT; };
+		D30BDCB11A571B9300639145 /* vars.acd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = vars.acd; path = acode/adv770/asrc/vars.acd; sourceTree = SOURCE_ROOT; };
+		D30BDCB21A571B9300639145 /* words.acd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = words.acd; path = acode/adv770/asrc/words.acd; sourceTree = SOURCE_ROOT; };
 		D388D2841A51DE7E0086975F /* adv770 v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "adv770 v1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D388D2881A51DE7E0086975F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D388D2891A51DE7E0086975F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -108,6 +134,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D30BDCC01A571BB200639145 /* Acode */ = {
+			isa = PBXGroup;
+			children = (
+				D30BDCA61A571B9300639145 /* actions.acd */,
+				D30BDCA71A571B9300639145 /* adv770.acd */,
+				D30BDCA81A571B9300639145 /* at.acd */,
+				D30BDCA91A571B9300639145 /* defs.acd */,
+				D30BDCAA1A571B9300639145 /* init.acd */,
+				D30BDCAB1A571B9300639145 /* moretext.acd */,
+				D30BDCAC1A571B9300639145 /* objects.acd */,
+				D30BDCAD1A571B9300639145 /* places.acd */,
+				D30BDCAE1A571B9300639145 /* procs.acd */,
+				D30BDCAF1A571B9300639145 /* repeat.acd */,
+				D30BDCB01A571B9300639145 /* text.acd */,
+				D30BDCB11A571B9300639145 /* vars.acd */,
+				D30BDCB21A571B9300639145 /* words.acd */,
+			);
+			name = Acode;
+			sourceTree = "<group>";
+		};
 		D388D27B1A51DE7E0086975F = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +177,7 @@
 			children = (
 				D388D2E11A51DF580086975F /* version.h */,
 				D388D2AD1A51DECA0086975F /* ViewController.m */,
+				D30BDCC01A571BB200639145 /* Acode */,
 				D388D2BB1A51DEFB0086975F /* adv1.h */,
 				D388D2BC1A51DEFB0086975F /* adv02.c */,
 				D388D2BD1A51DEFB0086975F /* adv2.h */,
@@ -277,8 +324,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				D388D2B91A51DECA0086975F /* Main.storyboard in Resources */,
+				D30BDCBC1A571B9400639145 /* repeat.acd in Resources */,
+				D30BDCB91A571B9400639145 /* objects.acd in Resources */,
+				D30BDCBB1A571B9400639145 /* procs.acd in Resources */,
+				D30BDCB51A571B9400639145 /* at.acd in Resources */,
+				D30BDCB71A571B9400639145 /* init.acd in Resources */,
+				D30BDCBE1A571B9400639145 /* vars.acd in Resources */,
 				D388D2981A51DE7F0086975F /* LaunchScreen.xib in Resources */,
+				D30BDCBA1A571B9400639145 /* places.acd in Resources */,
+				D30BDCB61A571B9400639145 /* defs.acd in Resources */,
+				D30BDCBD1A571B9400639145 /* text.acd in Resources */,
+				D30BDCB81A571B9400639145 /* moretext.acd in Resources */,
+				D30BDCB31A571B9300639145 /* actions.acd in Resources */,
 				D388D2951A51DE7F0086975F /* Images.xcassets in Resources */,
+				D30BDCBF1A571B9400639145 /* words.acd in Resources */,
+				D30BDCB41A571B9400639145 /* adv770.acd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +499,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"OTHER_CFLAGS[arch=*]" = "-DIOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "570c8330-3e0b-4f11-a469-dd6cfdde07a5";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -453,7 +513,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"OTHER_CFLAGS[arch=*]" = "-DIOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "570c8330-3e0b-4f11-a469-dd6cfdde07a5";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
