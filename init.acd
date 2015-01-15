@@ -1085,6 +1085,8 @@ init
    EOI
    set stage, mirror.world
    SET moves, 980
+   goto road
+   apport lamp, road
    say hi.there
 #
 #=====================================================================
