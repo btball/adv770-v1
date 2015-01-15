@@ -1,5 +1,5 @@
-/* adv10.c: Adv770 - copyright Mike Arnautov, 22 Dec 2014.
- * Locensed under the Modified BSD Licence (see the supplied LICENCE file).
+/* adv10.c: Adv770 - copyright Mike Arnautov, 13 Jan 2015.
+ * Licensed under the Modified BSD Licence (see the supplied LICENCE file).
  */
 
 #include "adv0.h"

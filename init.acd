@@ -1062,14 +1062,14 @@ init
 # Wake up user and greet him.
 #
 #  Time for the big cheat
-   itobj ptr.obj
-      bit   ptr.obj, valued
-         apport ptr.obj, building
+   itobj obj.ptr
+      bit   obj.ptr, valued
+         apport obj.ptr, building
       fin
    EOI
    apport bottle, building
-   ITPLACE PTR.PLACE
-      BIC PTR.PLACE, BEEN.HERE
+   ITPLACE place.ptr
+      BIC place.ptr, BEEN.HERE
    EOI
    SET moves, 980
    say hi.there

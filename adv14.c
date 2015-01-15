@@ -1,5 +1,5 @@
-/* adv14.c: Adv770 - copyright Mike Arnautov, 22 Dec 2014.
- * Locensed under the Modified BSD Licence (see the supplied LICENCE file).
+/* adv14.c: Adv770 - copyright Mike Arnautov, 13 Jan 2015.
+ * Licensed under the Modified BSD Licence (see the supplied LICENCE file).
  */
 
 #include "adv0.h"
@@ -3155,6 +3155,3 @@ value[value[1147]]=lbts[1*VARSIZE]==-1?value[lval[1]]:lval[1];
    bitmod('s',153,4);
    bitmod('s',170,4);
    p695();
-   say(0,1267,0);
-return done;
-}

@@ -1,16 +1,16 @@
-/* adv1.h: Adv770 - copyright Mike Arnautov, 22 Dec 2014.
- * Locensed under the Modified BSD Licence (see the supplied LICENCE file).
+/* adv1.h: Adv770 - copyright Mike Arnautov, 13 Jan 2015.
+ * Licensed under the Modified BSD Licence (see the supplied LICENCE file).
  */
 
 #ifndef ADV1_H
 #define ADV1_H
 #define GAME_NAME "Adv770"
-#define GAME_VERSION "2.10"
-#define GAME_ID "Adv770 version 2.10, 24 Nov 2014"
+#define GAME_VERSION "2.09"
+#define GAME_ID "Adv770 version 2.09, 31 May 2014"
 #define STYLE 12
 #ifndef ADV01
-#define GAME_DATE "24 Nov 2014"
-#define ACDC_VERSION "12.25, 05 Dec 2013"
+#define GAME_DATE "31 May 2014"
+#define ACDC_VERSION "12.29, 04 Jan 2015"
 #if defined(MSDOS) || defined(_WIN32)
 #  define PERSISTENT_DATA "_adv770.adp"
 #  define CGINAME "_adv770"
@@ -33,7 +33,7 @@
 #define FTEXT 1257
 #define LTEXT 3478
 #define NOISE 19
-#define KNOT 22
+#define KNOT 75
 #define VOCAB_SIZE 1269
 #define INHAND 703
 #define HERE 1138
@@ -87,6 +87,4 @@
 #define KEY(X) (value[1136]==X || value[1137]==X)
 #define INIT_PROC p1
 #define REPEAT_PROC p2
-#endif
-#define TEXT_BYTES 511648
 #endif

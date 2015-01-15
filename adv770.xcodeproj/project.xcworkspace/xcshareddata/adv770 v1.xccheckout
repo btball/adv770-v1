@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>70E192EA-3A69-4889-8BBA-50D063384166</string>
+	<key>IDESourceControlProjectName</key>
+	<string>adv770 v1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1D9FB92B887068DA13477CBD951F56BCEABAFBFA</key>
+		<string>https://github.com/btball/adv770-v1.git</string>
+		<key>60C64E75A1549B55E8DA1A10FA56B9370684DECD</key>
+		<string>https://github.com/btball/AdvIOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>adv770 v1.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1D9FB92B887068DA13477CBD951F56BCEABAFBFA</key>
+		<string>../..</string>
+		<key>60C64E75A1549B55E8DA1A10FA56B9370684DECD</key>
+		<string>../../../AdvIOS</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/btball/adv770-v1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1D9FB92B887068DA13477CBD951F56BCEABAFBFA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1D9FB92B887068DA13477CBD951F56BCEABAFBFA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>adv770%20v1</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>60C64E75A1549B55E8DA1A10FA56B9370684DECD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AdvIOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
