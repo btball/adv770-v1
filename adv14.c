@@ -3155,3 +3155,15 @@ value[value[1147]]=lbts[1*VARSIZE]==-1?value[lval[1]]:lval[1];
    bitmod('s',153,4);
    bitmod('s',170,4);
    p695();
+   *bitword(1146)= -1; value[1146]=FOBJ-1; while (++value[1146]<=LOBJ) {
+   if (bitest(evar(1146),5)) {
+   apport(value[1146],200);
+   }}
+   apport(119,200);
+   *bitword(1147)= -1; value[1147]=FLOC-1; while (++value[1147]<=LLOC) {
+   bitmod('c',evar(1147),4);
+   }
+   set('V',1186,'c',980,NULL,NULL);
+   say(0,1267,0);
+return done;
+}
