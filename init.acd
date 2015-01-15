@@ -1076,6 +1076,10 @@ init
    apport rug, building
    bis chest, valued
    apport chest, building
+   bis book, valued
+   bis djinn, special1
+   bis beater, seen
+   bis codex.reward, excessive
    ITPLACE place.ptr
       BIC place.ptr, BEEN.HERE
    EOI

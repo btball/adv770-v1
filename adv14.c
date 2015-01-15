@@ -3160,6 +3160,14 @@ value[value[1147]]=lbts[1*VARSIZE]==-1?value[lval[1]]:lval[1];
    apport(value[1146],200);
    }}
    apport(119,200);
+   apport(100,199);
+   apport(116,200);
+   bitmod('s',63,5);
+   apport(63,200);
+   bitmod('s',83,5);
+   apport(63,200);
+   bitmod('s',52,5);
+   apport(52,200);
    *bitword(1147)= -1; value[1147]=FLOC-1; while (++value[1147]<=LLOC) {
    bitmod('c',evar(1147),4);
    }
