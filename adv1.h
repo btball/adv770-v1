@@ -33,7 +33,7 @@
 #define FTEXT 1257
 #define LTEXT 3478
 #define NOISE 19
-#define KNOT 52
+#define KNOT 69
 #define VOCAB_SIZE 1269
 #define INHAND 703
 #define HERE 1138
@@ -87,4 +87,6 @@
 #define KEY(X) (value[1136]==X || value[1137]==X)
 #define INIT_PROC p1
 #define REPEAT_PROC p2
+#endif
+#define TEXT_BYTES 511651
 #endif
