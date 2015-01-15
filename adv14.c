@@ -3176,8 +3176,8 @@ value[value[1147]]=lbts[1*VARSIZE]==-1?value[lval[1]]:lval[1];
    }
    set('V',1190,'c',8,NULL,NULL);
    set('V',1186,'c',980,NULL,NULL);
-   move(195,-1);
-   apport(107,195);
+   move(545,-1);
+   apport(107,545);
    say(0,1267,0);
 return done;
 }
