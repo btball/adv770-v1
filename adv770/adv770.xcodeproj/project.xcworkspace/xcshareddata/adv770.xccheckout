@@ -5,9 +5,9 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>70E192EA-3A69-4889-8BBA-50D063384166</string>
+	<string>64475391-F471-4C41-9362-6091369C4126</string>
 	<key>IDESourceControlProjectName</key>
-	<string>adv770 v1</string>
+	<string>adv770</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1D9FB92B887068DA13477CBD951F56BCEABAFBFA</key>
@@ -16,13 +16,13 @@
 		<string>https://github.com/btball/AdvIOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>adv770 v1.xcodeproj</string>
+	<string>adv770/adv770.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1D9FB92B887068DA13477CBD951F56BCEABAFBFA</key>
-		<string>../..</string>
+		<string>../../..</string>
 		<key>60C64E75A1549B55E8DA1A10FA56B9370684DECD</key>
-		<string>../../../AdvIOS</string>
+		<string>../../../../AdvIOS</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/btball/adv770-v1.git</string>
@@ -38,7 +38,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>1D9FB92B887068DA13477CBD951F56BCEABAFBFA</string>
 			<key>IDESourceControlWCCName</key>
-			<string>adv770%20v1</string>
+			<string>adv770</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>

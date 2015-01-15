@@ -1068,6 +1068,14 @@ init
       fin
    EOI
    apport bottle, building
+   apport starstone, stupendous.view
+   apport magazines, building
+   bis rug, valued
+   apport rug, building
+   bis  tusk, valued
+   apport rug, building
+   bis chest, valued
+   apport chest, building
    ITPLACE place.ptr
       BIC place.ptr, BEEN.HERE
    EOI

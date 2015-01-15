@@ -9,11 +9,30 @@
 /* Begin PBXBuildFile section */
 		D3A617661A6764DE00278624 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A617651A6764DE00278624 /* main.m */; };
 		D3A617691A6764DE00278624 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A617681A6764DE00278624 /* AppDelegate.m */; };
-		D3A6176C1A6764DE00278624 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A6176B1A6764DE00278624 /* ViewController.m */; };
-		D3A6176F1A6764DE00278624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A6176D1A6764DE00278624 /* Main.storyboard */; };
 		D3A617711A6764DE00278624 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A617701A6764DE00278624 /* Images.xcassets */; };
 		D3A617741A6764DE00278624 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3A617721A6764DE00278624 /* LaunchScreen.xib */; };
 		D3A617801A6764DE00278624 /* adv770Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A6177F1A6764DE00278624 /* adv770Tests.m */; };
+		D3A6179F1A67652300278624 /* adv14.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A6178F1A67652300278624 /* adv14.c */; };
+		D3A617A01A67652300278624 /* adv15.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A617901A67652300278624 /* adv15.c */; };
+		D3A617A11A67652300278624 /* adv16.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A617911A67652300278624 /* adv16.c */; };
+		D3A617A21A67652300278624 /* adv17.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A617921A67652300278624 /* adv17.c */; };
+		D3A617A31A67652300278624 /* adv04.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A617931A67652300278624 /* adv04.c */; };
+		D3A617A41A67652300278624 /* adv05.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A617941A67652300278624 /* adv05.c */; };
+		D3A617A51A67652300278624 /* adv06.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A617951A67652300278624 /* adv06.c */; };
+		D3A617A61A67652300278624 /* adv07.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A617961A67652300278624 /* adv07.c */; };
+		D3A617A71A67652300278624 /* adv08.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A617971A67652300278624 /* adv08.c */; };
+		D3A617A81A67652300278624 /* adv09.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A617981A67652300278624 /* adv09.c */; };
+		D3A617A91A67652300278624 /* adv10.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A617991A67652300278624 /* adv10.c */; };
+		D3A617AA1A67652300278624 /* adv11.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A6179A1A67652300278624 /* adv11.c */; };
+		D3A617AB1A67652300278624 /* adv12.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A6179B1A67652300278624 /* adv12.c */; };
+		D3A617AC1A67652300278624 /* adv13.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A6179C1A67652300278624 /* adv13.c */; };
+		D3A617AD1A67652300278624 /* adv02.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A6179D1A67652300278624 /* adv02.c */; };
+		D3A617AE1A67652300278624 /* adv03.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A6179E1A67652300278624 /* adv03.c */; };
+		D3A617B81A67654500278624 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A617B01A67654500278624 /* ViewController.m */; };
+		D3A617B91A67654500278624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A617B11A67654500278624 /* Main.storyboard */; };
+		D3A617BA1A67654500278624 /* adv00.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A617B31A67654500278624 /* adv00.c */; };
+		D3A617BB1A67654500278624 /* adv01.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A617B51A67654500278624 /* adv01.c */; };
+		D3A617BC1A67654500278624 /* advio.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A617B61A67654500278624 /* advio.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +51,43 @@
 		D3A617651A6764DE00278624 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D3A617671A6764DE00278624 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3A617681A6764DE00278624 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D3A6176A1A6764DE00278624 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D3A6176B1A6764DE00278624 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D3A6176E1A6764DE00278624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3A617701A6764DE00278624 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D3A617731A6764DE00278624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D3A617791A6764DE00278624 /* adv770Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adv770Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A6177E1A6764DE00278624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3A6177F1A6764DE00278624 /* adv770Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = adv770Tests.m; sourceTree = "<group>"; };
+		D3A617891A67652300278624 /* adv1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adv1.h; path = ../../adv1.h; sourceTree = "<group>"; };
+		D3A6178A1A67652300278624 /* adv2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adv2.h; path = ../../adv2.h; sourceTree = "<group>"; };
+		D3A6178B1A67652300278624 /* adv3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adv3.h; path = ../../adv3.h; sourceTree = "<group>"; };
+		D3A6178C1A67652300278624 /* adv4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adv4.h; path = ../../adv4.h; sourceTree = "<group>"; };
+		D3A6178D1A67652300278624 /* adv5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adv5.h; path = ../../adv5.h; sourceTree = "<group>"; };
+		D3A6178E1A67652300278624 /* adv6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adv6.h; path = ../../adv6.h; sourceTree = "<group>"; };
+		D3A6178F1A67652300278624 /* adv14.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv14.c; path = ../../adv14.c; sourceTree = "<group>"; };
+		D3A617901A67652300278624 /* adv15.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv15.c; path = ../../adv15.c; sourceTree = "<group>"; };
+		D3A617911A67652300278624 /* adv16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv16.c; path = ../../adv16.c; sourceTree = "<group>"; };
+		D3A617921A67652300278624 /* adv17.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv17.c; path = ../../adv17.c; sourceTree = "<group>"; };
+		D3A617931A67652300278624 /* adv04.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv04.c; path = ../../adv04.c; sourceTree = "<group>"; };
+		D3A617941A67652300278624 /* adv05.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv05.c; path = ../../adv05.c; sourceTree = "<group>"; };
+		D3A617951A67652300278624 /* adv06.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv06.c; path = ../../adv06.c; sourceTree = "<group>"; };
+		D3A617961A67652300278624 /* adv07.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv07.c; path = ../../adv07.c; sourceTree = "<group>"; };
+		D3A617971A67652300278624 /* adv08.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv08.c; path = ../../adv08.c; sourceTree = "<group>"; };
+		D3A617981A67652300278624 /* adv09.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv09.c; path = ../../adv09.c; sourceTree = "<group>"; };
+		D3A617991A67652300278624 /* adv10.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv10.c; path = ../../adv10.c; sourceTree = "<group>"; };
+		D3A6179A1A67652300278624 /* adv11.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv11.c; path = ../../adv11.c; sourceTree = "<group>"; };
+		D3A6179B1A67652300278624 /* adv12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv12.c; path = ../../adv12.c; sourceTree = "<group>"; };
+		D3A6179C1A67652300278624 /* adv13.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv13.c; path = ../../adv13.c; sourceTree = "<group>"; };
+		D3A6179D1A67652300278624 /* adv02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv02.c; path = ../../adv02.c; sourceTree = "<group>"; };
+		D3A6179E1A67652300278624 /* adv03.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv03.c; path = ../../adv03.c; sourceTree = "<group>"; };
+		D3A617AF1A67654500278624 /* ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ios.h; path = ../../../AdvIOS/AdvIOS/ios.h; sourceTree = "<group>"; };
+		D3A617B01A67654500278624 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../../AdvIOS/AdvIOS/ViewController.m; sourceTree = "<group>"; };
+		D3A617B11A67654500278624 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../AdvIOS/AdvIOS/Main.storyboard; sourceTree = "<group>"; };
+		D3A617B21A67654500278624 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../../AdvIOS/AdvIOS/ViewController.h; sourceTree = "<group>"; };
+		D3A617B31A67654500278624 /* adv00.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv00.c; path = ../../../AdvIOS/AdvIOS/adv00.c; sourceTree = "<group>"; };
+		D3A617B41A67654500278624 /* adv0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adv0.h; path = ../../../AdvIOS/AdvIOS/adv0.h; sourceTree = "<group>"; };
+		D3A617B51A67654500278624 /* adv01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv01.c; path = ../../../AdvIOS/AdvIOS/adv01.c; sourceTree = "<group>"; };
+		D3A617B61A67654500278624 /* advio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = advio.m; path = ../../../AdvIOS/AdvIOS/advio.m; sourceTree = "<group>"; };
+		D3A617B71A67654500278624 /* advio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = advio.h; path = ../../../AdvIOS/AdvIOS/advio.h; sourceTree = "<group>"; };
+		D3A617BD1A67659D00278624 /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +129,40 @@
 		D3A617621A6764DE00278624 /* adv770 */ = {
 			isa = PBXGroup;
 			children = (
+				D3A617AF1A67654500278624 /* ios.h */,
+				D3A617B01A67654500278624 /* ViewController.m */,
+				D3A617B11A67654500278624 /* Main.storyboard */,
+				D3A617B21A67654500278624 /* ViewController.h */,
+				D3A617BD1A67659D00278624 /* version.h */,
+				D3A617B31A67654500278624 /* adv00.c */,
+				D3A617B41A67654500278624 /* adv0.h */,
+				D3A617B51A67654500278624 /* adv01.c */,
+				D3A617B61A67654500278624 /* advio.m */,
+				D3A617B71A67654500278624 /* advio.h */,
+				D3A617891A67652300278624 /* adv1.h */,
+				D3A6178A1A67652300278624 /* adv2.h */,
+				D3A6178B1A67652300278624 /* adv3.h */,
+				D3A6178C1A67652300278624 /* adv4.h */,
+				D3A6178D1A67652300278624 /* adv5.h */,
+				D3A6178E1A67652300278624 /* adv6.h */,
+				D3A6178F1A67652300278624 /* adv14.c */,
+				D3A617901A67652300278624 /* adv15.c */,
+				D3A617911A67652300278624 /* adv16.c */,
+				D3A617921A67652300278624 /* adv17.c */,
+				D3A617931A67652300278624 /* adv04.c */,
+				D3A617941A67652300278624 /* adv05.c */,
+				D3A617951A67652300278624 /* adv06.c */,
+				D3A617961A67652300278624 /* adv07.c */,
+				D3A617971A67652300278624 /* adv08.c */,
+				D3A617981A67652300278624 /* adv09.c */,
+				D3A617991A67652300278624 /* adv10.c */,
+				D3A6179A1A67652300278624 /* adv11.c */,
+				D3A6179B1A67652300278624 /* adv12.c */,
+				D3A6179C1A67652300278624 /* adv13.c */,
+				D3A6179D1A67652300278624 /* adv02.c */,
+				D3A6179E1A67652300278624 /* adv03.c */,
 				D3A617671A6764DE00278624 /* AppDelegate.h */,
 				D3A617681A6764DE00278624 /* AppDelegate.m */,
-				D3A6176A1A6764DE00278624 /* ViewController.h */,
-				D3A6176B1A6764DE00278624 /* ViewController.m */,
-				D3A6176D1A6764DE00278624 /* Main.storyboard */,
 				D3A617701A6764DE00278624 /* Images.xcassets */,
 				D3A617721A6764DE00278624 /* LaunchScreen.xib */,
 				D3A617631A6764DE00278624 /* Supporting Files */,
@@ -199,9 +276,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3A6176F1A6764DE00278624 /* Main.storyboard in Resources */,
 				D3A617741A6764DE00278624 /* LaunchScreen.xib in Resources */,
 				D3A617711A6764DE00278624 /* Images.xcassets in Resources */,
+				D3A617B91A67654500278624 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +296,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3A6176C1A6764DE00278624 /* ViewController.m in Sources */,
+				D3A617BA1A67654500278624 /* adv00.c in Sources */,
+				D3A617AA1A67652300278624 /* adv11.c in Sources */,
+				D3A617A11A67652300278624 /* adv16.c in Sources */,
+				D3A6179F1A67652300278624 /* adv14.c in Sources */,
+				D3A617A71A67652300278624 /* adv08.c in Sources */,
+				D3A617A91A67652300278624 /* adv10.c in Sources */,
+				D3A617AB1A67652300278624 /* adv12.c in Sources */,
+				D3A617BB1A67654500278624 /* adv01.c in Sources */,
+				D3A617A51A67652300278624 /* adv06.c in Sources */,
 				D3A617691A6764DE00278624 /* AppDelegate.m in Sources */,
+				D3A617A21A67652300278624 /* adv17.c in Sources */,
+				D3A617AE1A67652300278624 /* adv03.c in Sources */,
+				D3A617BC1A67654500278624 /* advio.m in Sources */,
+				D3A617A81A67652300278624 /* adv09.c in Sources */,
+				D3A617A61A67652300278624 /* adv07.c in Sources */,
 				D3A617661A6764DE00278624 /* main.m in Sources */,
+				D3A617B81A67654500278624 /* ViewController.m in Sources */,
+				D3A617AC1A67652300278624 /* adv13.c in Sources */,
+				D3A617A41A67652300278624 /* adv05.c in Sources */,
+				D3A617AD1A67652300278624 /* adv02.c in Sources */,
+				D3A617A01A67652300278624 /* adv15.c in Sources */,
+				D3A617A31A67652300278624 /* adv04.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +340,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D3A6176D1A6764DE00278624 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3A6176E1A6764DE00278624 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D3A617721A6764DE00278624 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -347,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = adv770/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DIOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,6 +446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = adv770/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DIOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
