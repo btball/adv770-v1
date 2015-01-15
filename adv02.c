@@ -1977,8 +1977,9 @@ int done=0;
    set('V',1163,'c',0,NULL,NULL);
    }
    set('V',1163,'c',777,NULL,NULL);
+   set('V',1182,'c',777,NULL,NULL);
    set('V',1183,'c',770,NULL,NULL);
-   set('V',1186,'c',991,NULL,NULL);
+   set('V',1185,'c',991,NULL,NULL);
 return done;
 }
 #ifdef __STDC__

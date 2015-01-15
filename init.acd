@@ -1061,32 +1061,7 @@ init
 #
 # Wake up user and greet him.
 #
-#  Time for the big cheat
-   itobj obj.ptr
-      bit   obj.ptr, valued
-         apport obj.ptr, building
-      fin
-   EOI
-   apport bottle, building
-   apport starstone, stupendous.view
-   apport magazines, building
-   bis rug, valued
-   apport rug, building
-   bis  tusk, valued
-   apport rug, building
-   bis chest, valued
-   apport chest, building
-   bis book, valued
-   bis djinn, special1
-   bis beater, seen
-#   set codex.reward, excessive
-   ITPLACE place.ptr
-      BIC place.ptr, BEEN.HERE
-   EOI
-   set stage, mirror.world
-   SET moves, 980
-   goto clearing
-   apport lamp, clearing
+   goto road
    say hi.there
 #
 #=====================================================================

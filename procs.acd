@@ -2094,10 +2094,6 @@ proc get.score
    iflt actual.score, 0
       set actual.score, 0
    fin
-   set actual.score, 777
-   set scorex, 777
-   set maxscore, 770
-   set turns, 991
 #
 #=====================================================================
 #
